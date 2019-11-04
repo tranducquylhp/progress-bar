@@ -5,16 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent  implements OnInit {
-
-  @Input() backgroundColor = '#d9d9d9';
-  @Input() progressColor = '#4CAF50';
-  @Input() width = 50;
-
-  constructor() {
-  }
-
-  ngOnInit() {
-  }
-
+export class AppComponent {
+  title = 'untitled';
 }
